@@ -8,7 +8,7 @@ const port = process.env.SERVER_PORT || 8080
 
 // Enable CORS for local development
 app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:5174", "http://localhost:3000", "http://localhost:8080"],
+  origin: ["http://localhost:5173", "http://localhost:5174", "https://car-advisor-client.onrender.com", "http://localhost:3000", "http://localhost:8080"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
