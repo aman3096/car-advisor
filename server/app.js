@@ -23,6 +23,8 @@ app.get('/api/v1/health-check', async( req, res) =>{
     res.send("Car Service in progress");
 })
 
+app.use("/api/v1/bedrock", require("./bedrock/bedrock.routes.js"))
+
 app.listen(port, ()=> {
     console.log(`App is listening to ${port}`)
 })

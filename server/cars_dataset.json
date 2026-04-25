@@ -1,0 +1,1891 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Camry",
+      "variant": "XSE V6",
+      "year": 2024,
+      "price": 34950,
+      "specs": {
+        "engine": "3.5L V6",
+        "horsepower": 301,
+        "torque_lb_ft": 267,
+        "transmission": "8-speed automatic",
+        "drivetrain": "FWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 15.1,
+        "curb_weight_lbs": 3593
+      },
+      "mileage": {
+        "city_mpg": 22,
+        "highway_mpg": 33,
+        "combined_mpg": 26
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 1284,
+        "highlights": ["Smooth ride", "Reliable engine", "Comfortable interior"],
+        "complaints": ["Infotainment lag", "Trunk space could be bigger"]
+      }
+    },
+    {
+      "id": 2,
+      "make": "Honda",
+      "model": "Accord",
+      "variant": "Sport 2.0T",
+      "year": 2024,
+      "price": 33895,
+      "specs": {
+        "engine": "2.0L Turbo I4",
+        "horsepower": 192,
+        "torque_lb_ft": 192,
+        "transmission": "CVT",
+        "drivetrain": "FWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 16.7,
+        "curb_weight_lbs": 3131
+      },
+      "mileage": {
+        "city_mpg": 29,
+        "highway_mpg": 37,
+        "combined_mpg": 32
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.6,
+        "total_reviews": 987,
+        "highlights": ["Fuel efficient", "Spacious trunk", "Great safety features"],
+        "complaints": ["CVT feels uninspiring", "Road noise at highway speed"]
+      }
+    },
+    {
+      "id": 3,
+      "make": "BMW",
+      "model": "3 Series",
+      "variant": "330i xDrive",
+      "year": 2024,
+      "price": 48095,
+      "specs": {
+        "engine": "2.0L Turbo I4",
+        "horsepower": 255,
+        "torque_lb_ft": 295,
+        "transmission": "8-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 17,
+        "curb_weight_lbs": 3605
+      },
+      "mileage": {
+        "city_mpg": 24,
+        "highway_mpg": 34,
+        "combined_mpg": 27
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.4,
+        "total_reviews": 762,
+        "highlights": ["Sporty handling", "Premium interior", "Powerful engine"],
+        "complaints": ["Expensive maintenance", "Complicated iDrive menus"]
+      }
+    },
+    {
+      "id": 4,
+      "make": "Tesla",
+      "model": "Model 3",
+      "variant": "Long Range AWD",
+      "year": 2024,
+      "price": 45990,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 358,
+        "torque_lb_ft": 394,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 15,
+        "curb_weight_lbs": 4048
+      },
+      "mileage": {
+        "city_mpge": 138,
+        "highway_mpge": 126,
+        "combined_mpge": 132,
+        "range_miles": 358
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.7,
+        "total_reviews": 2341,
+        "highlights": ["Incredible range", "Autopilot", "Fast charging network"],
+        "complaints": ["Build quality inconsistency", "No CarPlay/Android Auto"]
+      }
+    },
+    {
+      "id": 5,
+      "make": "Ford",
+      "model": "Mustang",
+      "variant": "GT Premium",
+      "year": 2024,
+      "price": 46275,
+      "specs": {
+        "engine": "5.0L V8",
+        "horsepower": 480,
+        "torque_lb_ft": 420,
+        "transmission": "6-speed manual",
+        "drivetrain": "RWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 4,
+        "cargo_volume_cu_ft": 13.5,
+        "curb_weight_lbs": 3860
+      },
+      "mileage": {
+        "city_mpg": 15,
+        "highway_mpg": 24,
+        "combined_mpg": 18
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 4,
+        "iihs_rating": "Acceptable",
+        "front_crash": 4,
+        "side_crash": 4,
+        "rollover": 3
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 1123,
+        "highlights": ["Raw V8 sound", "Thrilling performance", "Iconic styling"],
+        "complaints": ["Poor fuel economy", "Stiff rear suspension"]
+      }
+    },
+    {
+      "id": 6,
+      "make": "Hyundai",
+      "model": "Tucson",
+      "variant": "N Line AWD",
+      "year": 2024,
+      "price": 36945,
+      "specs": {
+        "engine": "1.6L Turbo I4",
+        "horsepower": 180,
+        "torque_lb_ft": 195,
+        "transmission": "7-speed DCT",
+        "drivetrain": "AWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 38.7,
+        "curb_weight_lbs": 3638
+      },
+      "mileage": {
+        "city_mpg": 26,
+        "highway_mpg": 33,
+        "combined_mpg": 29
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.3,
+        "total_reviews": 678,
+        "highlights": ["Sporty design", "Good value", "Comfortable seats"],
+        "complaints": ["Smaller cargo vs competitors", "DCT hesitation at low speed"]
+      }
+    },
+    {
+      "id": 7,
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "variant": "LTZ 4WD",
+      "year": 2024,
+      "price": 55500,
+      "specs": {
+        "engine": "5.3L V8",
+        "horsepower": 355,
+        "torque_lb_ft": 383,
+        "transmission": "10-speed automatic",
+        "drivetrain": "4WD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 6,
+        "cargo_volume_cu_ft": 89.1,
+        "curb_weight_lbs": 4806
+      },
+      "mileage": {
+        "city_mpg": 16,
+        "highway_mpg": 22,
+        "combined_mpg": 18
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 4,
+        "iihs_rating": "Acceptable",
+        "front_crash": 4,
+        "side_crash": 4,
+        "rollover": 3
+      },
+      "user_reviews": {
+        "average_rating": 4.2,
+        "total_reviews": 1456,
+        "highlights": ["Powerful towing", "Comfortable cab", "Reliable engine"],
+        "complaints": ["Poor fuel economy", "Expensive options packages"]
+      }
+    },
+    {
+      "id": 8,
+      "make": "Kia",
+      "model": "EV6",
+      "variant": "GT-Line AWD",
+      "year": 2024,
+      "price": 49800,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 320,
+        "torque_lb_ft": 446,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 24.4,
+        "curb_weight_lbs": 4519
+      },
+      "mileage": {
+        "city_mpge": 105,
+        "highway_mpge": 101,
+        "combined_mpge": 103,
+        "range_miles": 274
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.6,
+        "total_reviews": 534,
+        "highlights": ["Fast 800V charging", "Stylish interior", "Great driving dynamics"],
+        "complaints": ["Limited charging network vs Tesla", "Rear headroom tight"]
+      }
+    },
+    {
+      "id": 9,
+      "make": "Subaru",
+      "model": "Outback",
+      "variant": "Onyx Edition XT",
+      "year": 2024,
+      "price": 40445,
+      "specs": {
+        "engine": "2.4L Turbo Boxer",
+        "horsepower": 260,
+        "torque_lb_ft": 277,
+        "transmission": "CVT",
+        "drivetrain": "AWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 75.7,
+        "curb_weight_lbs": 3956
+      },
+      "mileage": {
+        "city_mpg": 22,
+        "highway_mpg": 29,
+        "combined_mpg": 25
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.4,
+        "total_reviews": 892,
+        "highlights": ["Standard AWD", "Massive cargo space", "Trail-worthy ground clearance"],
+        "complaints": ["CVT not sporty", "Infotainment screen glare"]
+      }
+    },
+    {
+      "id": 10,
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "variant": "C300 4MATIC",
+      "year": 2024,
+      "price": 49900,
+      "specs": {
+        "engine": "2.0L Turbo I4 MHEV",
+        "horsepower": 255,
+        "torque_lb_ft": 295,
+        "transmission": "9-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 12.6,
+        "curb_weight_lbs": 3803
+      },
+      "mileage": {
+        "city_mpg": 23,
+        "highway_mpg": 32,
+        "combined_mpg": 27
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 643,
+        "highlights": ["Stunning MBUX interior", "Smooth ride quality", "Prestige brand"],
+        "complaints": ["Small trunk", "Subscription-based features frustrating"]
+      }
+    },
+    {
+      "id": 11,
+      "make": "Audi",
+      "model": "A4",
+      "variant": "Premium Plus 45 TFSI",
+      "year": 2024,
+      "price": 47900,
+      "specs": {
+        "engine": "2.0L Turbo I4",
+        "horsepower": 261,
+        "torque_lb_ft": 273,
+        "transmission": "7-speed S tronic",
+        "drivetrain": "AWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 13,
+        "curb_weight_lbs": 3912
+      },
+      "mileage": {
+        "city_mpg": 24,
+        "highway_mpg": 31,
+        "combined_mpg": 27
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 5,
+        "side_crash": 4,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.3,
+        "total_reviews": 521,
+        "highlights": ["Refined interior", "quattro AWD confidence", "Virtual cockpit display"],
+        "complaints": ["Lackluster base stereo", "MMI menu depth"]
+      }
+    },
+    {
+      "id": 12,
+      "make": "Jeep",
+      "model": "Wrangler",
+      "variant": "Rubicon 4xe",
+      "year": 2024,
+      "price": 63745,
+      "specs": {
+        "engine": "2.0L Turbo I4 PHEV",
+        "horsepower": 375,
+        "torque_lb_ft": 470,
+        "transmission": "8-speed automatic",
+        "drivetrain": "4WD",
+        "fuel_type": "Plug-in Hybrid",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 31.7,
+        "curb_weight_lbs": 5236
+      },
+      "mileage": {
+        "city_mpg": 20,
+        "highway_mpg": 22,
+        "combined_mpg": 21,
+        "electric_range_miles": 21
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 3,
+        "iihs_rating": "Marginal",
+        "front_crash": 3,
+        "side_crash": 4,
+        "rollover": 3
+      },
+      "user_reviews": {
+        "average_rating": 4.2,
+        "total_reviews": 789,
+        "highlights": ["Off-road capability", "Open-air experience", "EV commuting bonus"],
+        "complaints": ["High price", "Poor aerodynamics on highway", "Wind noise"]
+      }
+    },
+    {
+      "id": 13,
+      "make": "Volkswagen",
+      "model": "Golf GTI",
+      "variant": "Autobahn",
+      "year": 2024,
+      "price": 36995,
+      "specs": {
+        "engine": "2.0L Turbo I4",
+        "horsepower": 241,
+        "torque_lb_ft": 273,
+        "transmission": "7-speed DSG",
+        "drivetrain": "FWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 22.8,
+        "curb_weight_lbs": 3153
+      },
+      "mileage": {
+        "city_mpg": 24,
+        "highway_mpg": 32,
+        "combined_mpg": 27
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 4,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 4,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.6,
+        "total_reviews": 445,
+        "highlights": ["Fun to drive", "Practical hatchback", "Well-sorted chassis"],
+        "complaints": ["FWD torque steer", "Mediocre base audio"]
+      }
+    },
+    {
+      "id": 14,
+      "make": "Toyota",
+      "model": "RAV4",
+      "variant": "Hybrid XSE",
+      "year": 2024,
+      "price": 38900,
+      "specs": {
+        "engine": "2.5L I4 Hybrid",
+        "horsepower": 219,
+        "torque_lb_ft": 163,
+        "transmission": "CVT",
+        "drivetrain": "AWD",
+        "fuel_type": "Hybrid",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 37.6,
+        "curb_weight_lbs": 4235
+      },
+      "mileage": {
+        "city_mpg": 41,
+        "highway_mpg": 38,
+        "combined_mpg": 40
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.7,
+        "total_reviews": 2105,
+        "highlights": ["Exceptional fuel economy", "Reliable hybrid system", "Practical space"],
+        "complaints": ["Noisy CVT under acceleration", "Firm ride on rough roads"]
+      }
+    },
+    {
+      "id": 15,
+      "make": "Mazda",
+      "model": "CX-5",
+      "variant": "Turbo Premium Plus",
+      "year": 2024,
+      "price": 43395,
+      "specs": {
+        "engine": "2.5L Turbo I4",
+        "horsepower": 256,
+        "torque_lb_ft": 320,
+        "transmission": "6-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 30.9,
+        "curb_weight_lbs": 4156
+      },
+      "mileage": {
+        "city_mpg": 23,
+        "highway_mpg": 28,
+        "combined_mpg": 25
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 734,
+        "highlights": ["Premium feel at lower price", "Excellent driving dynamics", "Quiet cabin"],
+        "complaints": ["Smallish infotainment screen", "Rear cargo limited"]
+      }
+    },
+    {
+      "id": 16,
+      "make": "Ford",
+      "model": "F-150",
+      "variant": "Lariat PowerBoost",
+      "year": 2024,
+      "price": 58365,
+      "specs": {
+        "engine": "3.5L Turbo V6 PHEV",
+        "horsepower": 430,
+        "torque_lb_ft": 570,
+        "transmission": "10-speed automatic",
+        "drivetrain": "4WD",
+        "fuel_type": "Plug-in Hybrid",
+        "seating_capacity": 6,
+        "cargo_volume_cu_ft": 52.8,
+        "curb_weight_lbs": 5827
+      },
+      "mileage": {
+        "city_mpg": 24,
+        "highway_mpg": 24,
+        "combined_mpg": 24,
+        "electric_range_miles": 37
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 5,
+        "side_crash": 4,
+        "rollover": 3
+      },
+      "user_reviews": {
+        "average_rating": 4.4,
+        "total_reviews": 1678,
+        "highlights": ["Pro Power Onboard generator", "Excellent towing", "Comfortable interior"],
+        "complaints": ["Complex infotainment", "Bed size options confusing"]
+      }
+    },
+    {
+      "id": 17,
+      "make": "Porsche",
+      "model": "Taycan",
+      "variant": "4S",
+      "year": 2024,
+      "price": 113550,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 523,
+        "torque_lb_ft": 472,
+        "transmission": "2-speed PDK (rear)",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 4,
+        "cargo_volume_cu_ft": 14.3,
+        "curb_weight_lbs": 5060
+      },
+      "mileage": {
+        "city_mpge": 79,
+        "highway_mpge": 77,
+        "combined_mpge": 78,
+        "range_miles": 246
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.8,
+        "total_reviews": 312,
+        "highlights": ["Sports car performance", "Stunning design", "Exceptional build quality"],
+        "complaints": ["Eye-watering price", "Limited range vs rivals"]
+      }
+    },
+    {
+      "id": 18,
+      "make": "Rivian",
+      "model": "R1T",
+      "variant": "Adventure Dual Motor",
+      "year": 2024,
+      "price": 73000,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 600,
+        "torque_lb_ft": 829,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 52,
+        "curb_weight_lbs": 7148
+      },
+      "mileage": {
+        "city_mpge": 70,
+        "highway_mpge": 66,
+        "combined_mpge": 68,
+        "range_miles": 314
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 421,
+        "highlights": ["Unique gear tunnel storage", "Off-road capability", "Camp mode"],
+        "complaints": ["Software bugs at launch", "Charging network smaller than Tesla"]
+      }
+    },
+    {
+      "id": 19,
+      "make": "Honda",
+      "model": "CR-V",
+      "variant": "Sport Touring Hybrid",
+      "year": 2024,
+      "price": 39600,
+      "specs": {
+        "engine": "2.0L I4 Hybrid",
+        "horsepower": 204,
+        "torque_lb_ft": 247,
+        "transmission": "CVT",
+        "drivetrain": "AWD",
+        "fuel_type": "Hybrid",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 36.3,
+        "curb_weight_lbs": 4076
+      },
+      "mileage": {
+        "city_mpg": 40,
+        "highway_mpg": 36,
+        "combined_mpg": 38
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 1102,
+        "highlights": ["Excellent fuel economy", "Google built-in", "Family-friendly space"],
+        "complaints": ["Smaller cargo vs rivals", "Hesitant throttle response"]
+      }
+    },
+    {
+      "id": 20,
+      "make": "Genesis",
+      "model": "GV80",
+      "variant": "3.5T Prestige AWD",
+      "year": 2024,
+      "price": 79750,
+      "specs": {
+        "engine": "3.5L Twin-Turbo V6",
+        "horsepower": 375,
+        "torque_lb_ft": 391,
+        "transmission": "8-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 6,
+        "cargo_volume_cu_ft": 36.6,
+        "curb_weight_lbs": 5049
+      },
+      "mileage": {
+        "city_mpg": 17,
+        "highway_mpg": 23,
+        "combined_mpg": 19
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.7,
+        "total_reviews": 289,
+        "highlights": ["Luxury at lower price than rivals", "Beautiful quilted interior", "Smooth power delivery"],
+        "complaints": ["Genesis dealer network limited", "Infotainment learning curve"]
+      }
+    },
+    {
+      "id": 21,
+      "make": "Lucid",
+      "model": "Air",
+      "variant": "Grand Touring",
+      "year": 2024,
+      "price": 138000,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 819,
+        "torque_lb_ft": 900,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 25.6,
+        "curb_weight_lbs": 5354
+      },
+      "mileage": {
+        "city_mpge": 131,
+        "highway_mpge": 115,
+        "combined_mpge": 123,
+        "range_miles": 516
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.6,
+        "total_reviews": 178,
+        "highlights": ["Best-in-class range", "Ultra-efficient drivetrain", "Spacious glass roof"],
+        "complaints": ["Very expensive", "Lucid service centers rare"]
+      }
+    },
+    {
+      "id": 22,
+      "make": "Nissan",
+      "model": "Ariya",
+      "variant": "e-4ORCE",
+      "year": 2024,
+      "price": 56600,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 389,
+        "torque_lb_ft": 443,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 23.8,
+        "curb_weight_lbs": 4718
+      },
+      "mileage": {
+        "city_mpge": 88,
+        "highway_mpge": 76,
+        "combined_mpge": 82,
+        "range_miles": 272
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 5,
+        "side_crash": 4,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.0,
+        "total_reviews": 213,
+        "highlights": ["Smooth acceleration", "Sliding center console", "Stylish exterior"],
+        "complaints": ["Software updates slow", "Range disappointing in cold"]
+      }
+    },
+    {
+      "id": 23,
+      "make": "Volvo",
+      "model": "XC60",
+      "variant": "Recharge T8 Inscription",
+      "year": 2024,
+      "price": 64650,
+      "specs": {
+        "engine": "2.0L Turbo I4 PHEV",
+        "horsepower": 455,
+        "torque_lb_ft": 523,
+        "transmission": "8-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Plug-in Hybrid",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 29.7,
+        "curb_weight_lbs": 4751
+      },
+      "mileage": {
+        "city_mpg": 25,
+        "highway_mpg": 28,
+        "combined_mpg": 26,
+        "electric_range_miles": 35
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 367,
+        "highlights": ["Scandinavian minimalist design", "Excellent safety tech", "Powerful PHEV"],
+        "complaints": ["Google OS occasional glitches", "Small EV range"]
+      }
+    },
+    {
+      "id": 24,
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "variant": "2LT",
+      "year": 2024,
+      "price": 26500,
+      "specs": {
+        "engine": "Single Electric Motor",
+        "horsepower": 200,
+        "torque_lb_ft": 266,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "FWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 16.6,
+        "curb_weight_lbs": 3589
+      },
+      "mileage": {
+        "city_mpge": 131,
+        "highway_mpge": 109,
+        "combined_mpge": 120,
+        "range_miles": 259
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.3,
+        "total_reviews": 876,
+        "highlights": ["Affordable EV", "Good city range", "One-pedal driving"],
+        "complaints": ["No DC fast charging standard", "Slow 7.2kW AC charging"]
+      }
+    },
+    {
+      "id": 25,
+      "make": "Ram",
+      "model": "1500",
+      "variant": "TRX",
+      "year": 2024,
+      "price": 99790,
+      "specs": {
+        "engine": "6.2L Supercharged V8",
+        "horsepower": 702,
+        "torque_lb_ft": 650,
+        "transmission": "8-speed automatic",
+        "drivetrain": "4WD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 53.9,
+        "curb_weight_lbs": 6350
+      },
+      "mileage": {
+        "city_mpg": 10,
+        "highway_mpg": 14,
+        "combined_mpg": 12
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 4,
+        "iihs_rating": "Acceptable",
+        "front_crash": 4,
+        "side_crash": 4,
+        "rollover": 3
+      },
+      "user_reviews": {
+        "average_rating": 4.6,
+        "total_reviews": 543,
+        "highlights": ["Mind-blowing performance", "Off-road beast", "Hellcat engine thrill"],
+        "complaints": ["Terrible fuel economy", "Huge purchase price"]
+      }
+    },
+    {
+      "id": 26,
+      "make": "Toyota",
+      "model": "Prius",
+      "variant": "Prime SE",
+      "year": 2024,
+      "price": 32850,
+      "specs": {
+        "engine": "2.0L I4 PHEV",
+        "horsepower": 220,
+        "torque_lb_ft": 139,
+        "transmission": "CVT",
+        "drivetrain": "FWD",
+        "fuel_type": "Plug-in Hybrid",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 20.3,
+        "curb_weight_lbs": 3858
+      },
+      "mileage": {
+        "city_mpg": 52,
+        "highway_mpg": 52,
+        "combined_mpg": 52,
+        "electric_range_miles": 44
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 673,
+        "highlights": ["Outstanding fuel economy", "Now actually attractive", "EV daily commute"],
+        "complaints": ["Limited cargo space", "Rear visibility obstructed"]
+      }
+    },
+    {
+      "id": 27,
+      "make": "Cadillac",
+      "model": "Escalade",
+      "variant": "Sport Platinum",
+      "year": 2024,
+      "price": 109995,
+      "specs": {
+        "engine": "6.2L V8",
+        "horsepower": 420,
+        "torque_lb_ft": 460,
+        "transmission": "10-speed automatic",
+        "drivetrain": "4WD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 7,
+        "cargo_volume_cu_ft": 145.7,
+        "curb_weight_lbs": 5906
+      },
+      "mileage": {
+        "city_mpg": 14,
+        "highway_mpg": 19,
+        "combined_mpg": 16
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 4,
+        "iihs_rating": "Acceptable",
+        "front_crash": 4,
+        "side_crash": 5,
+        "rollover": 3
+      },
+      "user_reviews": {
+        "average_rating": 4.4,
+        "total_reviews": 412,
+        "highlights": ["Massive curved OLED display", "Incredible cargo space", "Smooth air suspension"],
+        "complaints": ["Terrible city fuel economy", "Hard to park"]
+      }
+    },
+    {
+      "id": 28,
+      "make": "Mazda",
+      "model": "MX-5 Miata",
+      "variant": "RF Grand Touring",
+      "year": 2024,
+      "price": 36840,
+      "specs": {
+        "engine": "2.0L I4",
+        "horsepower": 181,
+        "torque_lb_ft": 151,
+        "transmission": "6-speed automatic",
+        "drivetrain": "RWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 2,
+        "cargo_volume_cu_ft": 4.6,
+        "curb_weight_lbs": 2492
+      },
+      "mileage": {
+        "city_mpg": 26,
+        "highway_mpg": 34,
+        "combined_mpg": 29
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 4,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 4,
+        "side_crash": 4,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.7,
+        "total_reviews": 598,
+        "highlights": ["Pure driving joy", "Retractable hardtop", "Precise steering"],
+        "complaints": ["Tiny trunk", "Tight fit for tall drivers"]
+      }
+    },
+    {
+      "id": 29,
+      "make": "Hyundai",
+      "model": "Ioniq 6",
+      "variant": "Standard Range RWD",
+      "year": 2024,
+      "price": 38615,
+      "specs": {
+        "engine": "Single Electric Motor",
+        "horsepower": 225,
+        "torque_lb_ft": 258,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "RWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 11.1,
+        "curb_weight_lbs": 4223
+      },
+      "mileage": {
+        "city_mpge": 141,
+        "highway_mpge": 120,
+        "combined_mpge": 130,
+        "range_miles": 361
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.6,
+        "total_reviews": 441,
+        "highlights": ["Best-in-class efficiency", "800V ultra-fast charging", "Sleek aerodynamic design"],
+        "complaints": ["Hatchback-sized trunk", "Back seat cramped for tall passengers"]
+      }
+    },
+    {
+      "id": 30,
+      "make": "Land Rover",
+      "model": "Defender",
+      "variant": "110 X-Dynamic SE P400",
+      "year": 2024,
+      "price": 82100,
+      "specs": {
+        "engine": "3.0L Turbo I6 MHEV",
+        "horsepower": 395,
+        "torque_lb_ft": 406,
+        "transmission": "8-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 35.4,
+        "curb_weight_lbs": 5369
+      },
+      "mileage": {
+        "city_mpg": 18,
+        "highway_mpg": 23,
+        "combined_mpg": 20
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.3,
+        "total_reviews": 356,
+        "highlights": ["Iconic boxy design", "Serious off-road pedigree", "Configurable terrain modes"],
+        "complaints": ["Reliability concerns", "Expensive options", "Cramped third row"]
+      }
+    },
+    {
+      "id": 31,
+      "make": "Lexus",
+      "model": "RX",
+      "variant": "500h F Sport Performance",
+      "year": 2024,
+      "price": 68000,
+      "specs": {
+        "engine": "2.4L Turbo I4 PHEV",
+        "horsepower": 366,
+        "torque_lb_ft": 406,
+        "transmission": "6-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Plug-in Hybrid",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 29.6,
+        "curb_weight_lbs": 4695
+      },
+      "mileage": {
+        "city_mpg": 27,
+        "highway_mpg": 29,
+        "combined_mpg": 28,
+        "electric_range_miles": 37
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 389,
+        "highlights": ["Stunning spindle grille", "Lexus reliability reputation", "Premium cabin quality"],
+        "complaints": ["Smaller cargo than competitors", "Remote Touch interface frustrating"]
+      }
+    },
+    {
+      "id": 32,
+      "make": "Toyota",
+      "model": "Tacoma",
+      "variant": "TRD Pro",
+      "year": 2024,
+      "price": 56775,
+      "specs": {
+        "engine": "2.4L Turbo I4 Hybrid",
+        "horsepower": 326,
+        "torque_lb_ft": 465,
+        "transmission": "8-speed automatic",
+        "drivetrain": "4WD",
+        "fuel_type": "Hybrid",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 38.7,
+        "curb_weight_lbs": 4905
+      },
+      "mileage": {
+        "city_mpg": 20,
+        "highway_mpg": 24,
+        "combined_mpg": 22
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 4,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 4,
+        "side_crash": 5,
+        "rollover": 3
+      },
+      "user_reviews": {
+        "average_rating": 4.4,
+        "total_reviews": 674,
+        "highlights": ["Class-leading resale value", "Hybrid torque off-road", "Fox suspension"],
+        "complaints": ["Expensive for a mid-size truck", "Cabin not as refined as rivals"]
+      }
+    },
+    {
+      "id": 33,
+      "make": "Stellantis",
+      "model": "Dodge Hornet",
+      "variant": "R/T PHEV",
+      "year": 2024,
+      "price": 38995,
+      "specs": {
+        "engine": "1.3L Turbo I4 PHEV",
+        "horsepower": 288,
+        "torque_lb_ft": 383,
+        "transmission": "6-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Plug-in Hybrid",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 24.5,
+        "curb_weight_lbs": 4067
+      },
+      "mileage": {
+        "city_mpg": 29,
+        "highway_mpg": 32,
+        "combined_mpg": 30,
+        "electric_range_miles": 32
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 3.9,
+        "total_reviews": 187,
+        "highlights": ["Quick PowerShot boost mode", "Sporty styling", "Good EV range"],
+        "complaints": ["Interior quality below price point", "Missing Apple CarPlay wireless"]
+      }
+    },
+    {
+      "id": 34,
+      "make": "Audi",
+      "model": "e-tron GT",
+      "variant": "RS",
+      "year": 2024,
+      "price": 147000,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 637,
+        "torque_lb_ft": 612,
+        "transmission": "2-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 4,
+        "cargo_volume_cu_ft": 11.1,
+        "curb_weight_lbs": 5357
+      },
+      "mileage": {
+        "city_mpge": 77,
+        "highway_mpge": 73,
+        "combined_mpge": 75,
+        "range_miles": 232
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.7,
+        "total_reviews": 156,
+        "highlights": ["Porsche Taycan cousin at lower price", "Incredibly fast", "Impeccable interior"],
+        "complaints": ["Short range for the price", "Heavy weight"]
+      }
+    },
+    {
+      "id": 35,
+      "make": "Honda",
+      "model": "Civic",
+      "variant": "Si",
+      "year": 2024,
+      "price": 29395,
+      "specs": {
+        "engine": "1.5L Turbo I4",
+        "horsepower": 200,
+        "torque_lb_ft": 192,
+        "transmission": "6-speed manual",
+        "drivetrain": "FWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 15.1,
+        "curb_weight_lbs": 3012
+      },
+      "mileage": {
+        "city_mpg": 27,
+        "highway_mpg": 37,
+        "combined_mpg": 31
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.6,
+        "total_reviews": 823,
+        "highlights": ["Fun manual gearbox", "Affordable performance", "Great fuel economy"],
+        "complaints": ["No automatic option", "Firm suspension on bad roads"]
+      }
+    },
+    {
+      "id": 36,
+      "make": "GMC",
+      "model": "Hummer EV",
+      "variant": "Edition 1 Pickup",
+      "year": 2024,
+      "price": 109000,
+      "specs": {
+        "engine": "Three Electric Motors",
+        "horsepower": 1000,
+        "torque_lb_ft": 1200,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 53.7,
+        "curb_weight_lbs": 9046
+      },
+      "mileage": {
+        "city_mpge": 50,
+        "highway_mpge": 43,
+        "combined_mpge": 47,
+        "range_miles": 329
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 3
+      },
+      "user_reviews": {
+        "average_rating": 4.4,
+        "total_reviews": 231,
+        "highlights": ["Crab walk mode", "Insane acceleration", "Removable roof panels"],
+        "complaints": ["9,000 lb weight destroys tires fast", "Terrible efficiency vs range"]
+      }
+    },
+    {
+      "id": 37,
+      "make": "Subaru",
+      "model": "WRX",
+      "variant": "TR",
+      "year": 2024,
+      "price": 40165,
+      "specs": {
+        "engine": "2.4L Turbo Boxer",
+        "horsepower": 271,
+        "torque_lb_ft": 258,
+        "transmission": "6-speed manual",
+        "drivetrain": "AWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 12.5,
+        "curb_weight_lbs": 3534
+      },
+      "mileage": {
+        "city_mpg": 19,
+        "highway_mpg": 26,
+        "combined_mpg": 22
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.3,
+        "total_reviews": 412,
+        "highlights": ["Symmetrical AWD grip", "Rally-bred handling", "Practical 4-door body"],
+        "complaints": ["Noisy boxer engine in cabin", "Limited rear headroom"]
+      }
+    },
+    {
+      "id": 38,
+      "make": "Polestar",
+      "model": "2",
+      "variant": "Long Range Dual Motor",
+      "year": 2024,
+      "price": 56300,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 476,
+        "torque_lb_ft": 502,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 14.3,
+        "curb_weight_lbs": 4688
+      },
+      "mileage": {
+        "city_mpge": 95,
+        "highway_mpge": 88,
+        "combined_mpge": 92,
+        "range_miles": 270
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.3,
+        "total_reviews": 298,
+        "highlights": ["Android Automotive built-in", "Excellent chassis tuning", "Volvo safety DNA"],
+        "complaints": ["Missing heated steering wheel on base", "Smaller trunk than Model 3"]
+      }
+    },
+    {
+      "id": 39,
+      "make": "BMW",
+      "model": "iX",
+      "variant": "xDrive50",
+      "year": 2024,
+      "price": 89100,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 516,
+        "torque_lb_ft": 564,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 35.5,
+        "curb_weight_lbs": 5653
+      },
+      "mileage": {
+        "city_mpge": 86,
+        "highway_mpge": 86,
+        "combined_mpge": 86,
+        "range_miles": 324
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.4,
+        "total_reviews": 213,
+        "highlights": ["Spacious interior", "Incredible tech features", "Smooth power delivery"],
+        "complaints": ["Polarizing exterior", "Complex iDrive 8"]
+      }
+    },
+    {
+      "id": 40,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "variant": "Pinnacle Hybrid",
+      "year": 2024,
+      "price": 56545,
+      "specs": {
+        "engine": "3.6L V6 PHEV",
+        "horsepower": 260,
+        "torque_lb_ft": 229,
+        "transmission": "CVT",
+        "drivetrain": "FWD",
+        "fuel_type": "Plug-in Hybrid",
+        "seating_capacity": 7,
+        "cargo_volume_cu_ft": 140.5,
+        "curb_weight_lbs": 5325
+      },
+      "mileage": {
+        "city_mpg": 30,
+        "highway_mpg": 28,
+        "combined_mpg": 29,
+        "electric_range_miles": 32
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.2,
+        "total_reviews": 456,
+        "highlights": ["Best minivan PHEV", "Stow 'n Go seating", "Amazon Fire TV"],
+        "complaints": ["DC fast charging absent", "CVT not smooth under hard acceleration"]
+      }
+    },
+    {
+      "id": 41,
+      "make": "Mercedes-Benz",
+      "model": "EQS",
+      "variant": "580 4MATIC",
+      "year": 2024,
+      "price": 126050,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 536,
+        "torque_lb_ft": 633,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 22.6,
+        "curb_weight_lbs": 5910
+      },
+      "mileage": {
+        "city_mpge": 88,
+        "highway_mpge": 88,
+        "combined_mpge": 88,
+        "range_miles": 350
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 167,
+        "highlights": ["Hyperscreen is breathtaking", "Whisper-quiet cabin", "Rear-axle steering"],
+        "complaints": ["Subscription features annoying", "Expensive to option up"]
+      }
+    },
+    {
+      "id": 42,
+      "make": "Ford",
+      "model": "Bronco",
+      "variant": "Badlands Sasquatch",
+      "year": 2024,
+      "price": 52900,
+      "specs": {
+        "engine": "2.7L EcoBoost V6",
+        "horsepower": 330,
+        "torque_lb_ft": 415,
+        "transmission": "10-speed automatic",
+        "drivetrain": "4WD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 4,
+        "cargo_volume_cu_ft": 35.6,
+        "curb_weight_lbs": 4742
+      },
+      "mileage": {
+        "city_mpg": 17,
+        "highway_mpg": 22,
+        "combined_mpg": 19
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 4,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 4,
+        "side_crash": 5,
+        "rollover": 3
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 891,
+        "highlights": ["Best off-road capability", "Removable doors and roof", "Loyal community"],
+        "complaints": ["Hard top panel leaks reported", "Noisy on highway"]
+      }
+    },
+    {
+      "id": 43,
+      "make": "Kia",
+      "model": "Telluride",
+      "variant": "X-Pro SX Prestige",
+      "year": 2024,
+      "price": 56285,
+      "specs": {
+        "engine": "3.8L V6",
+        "horsepower": 291,
+        "torque_lb_ft": 262,
+        "transmission": "8-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 8,
+        "cargo_volume_cu_ft": 87,
+        "curb_weight_lbs": 4612
+      },
+      "mileage": {
+        "city_mpg": 19,
+        "highway_mpg": 24,
+        "combined_mpg": 21
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.7,
+        "total_reviews": 1234,
+        "highlights": ["Best value 3-row SUV", "Premium interior quality", "Excellent warranty"],
+        "complaints": ["No hybrid option yet", "Not as refined as luxury brands"]
+      }
+    },
+    {
+      "id": 44,
+      "make": "Tesla",
+      "model": "Model Y",
+      "variant": "Performance",
+      "year": 2024,
+      "price": 52990,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 456,
+        "torque_lb_ft": 497,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 76,
+        "curb_weight_lbs": 4555
+      },
+      "mileage": {
+        "city_mpge": 115,
+        "highway_mpge": 112,
+        "combined_mpge": 114,
+        "range_miles": 303
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.6,
+        "total_reviews": 3112,
+        "highlights": ["Best-selling EV SUV", "0-60 in 3.5 sec", "Supercharger network"],
+        "complaints": ["Yoke steering wheel controversial", "Over-the-air changes feel arbitrary"]
+      }
+    },
+    {
+      "id": 45,
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "variant": "AWD Pro S",
+      "year": 2024,
+      "price": 48995,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 295,
+        "torque_lb_ft": 339,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 30.3,
+        "curb_weight_lbs": 4844
+      },
+      "mileage": {
+        "city_mpge": 99,
+        "highway_mpge": 95,
+        "combined_mpge": 97,
+        "range_miles": 255
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.1,
+        "total_reviews": 389,
+        "highlights": ["Comfortable family crossover", "Quiet highway cruising", "Over-the-air updates"],
+        "complaints": ["Software glitches early models", "Limited range AWD version"]
+      }
+    },
+    {
+      "id": 46,
+      "make": "Hyundai",
+      "model": "IONIQ 5",
+      "variant": "N",
+      "year": 2024,
+      "price": 67450,
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "horsepower": 641,
+        "torque_lb_ft": 568,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 27.3,
+        "curb_weight_lbs": 4896
+      },
+      "mileage": {
+        "city_mpge": 88,
+        "highway_mpge": 77,
+        "combined_mpge": 83,
+        "range_miles": 221
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.8,
+        "total_reviews": 267,
+        "highlights": ["Track-capable EV", "N Grin Boost launch mode", "Simulated gear shifts"],
+        "complaints": ["Reduced range at track speeds", "No wagon/hatch for more aero"]
+      }
+    },
+    {
+      "id": 47,
+      "make": "Acura",
+      "model": "MDX",
+      "variant": "Type S",
+      "year": 2024,
+      "price": 71450,
+      "specs": {
+        "engine": "3.0L Turbo V6",
+        "horsepower": 355,
+        "torque_lb_ft": 354,
+        "transmission": "10-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 7,
+        "cargo_volume_cu_ft": 71.5,
+        "curb_weight_lbs": 4775
+      },
+      "mileage": {
+        "city_mpg": 19,
+        "highway_mpg": 25,
+        "combined_mpg": 21
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.5,
+        "total_reviews": 298,
+        "highlights": ["Performance SUV surprise", "Excellent Bowers & Wilkins audio", "SH-AWD torque vectoring"],
+        "complaints": ["Touchpad infotainment polarizing", "Third row tight for adults"]
+      }
+    },
+    {
+      "id": 48,
+      "make": "Stellantis",
+      "model": "Alfa Romeo Tonale",
+      "variant": "Veloce PHEV",
+      "year": 2024,
+      "price": 46995,
+      "specs": {
+        "engine": "1.3L Turbo I4 PHEV",
+        "horsepower": 272,
+        "torque_lb_ft": 258,
+        "transmission": "6-speed automatic",
+        "drivetrain": "AWD",
+        "fuel_type": "Plug-in Hybrid",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 22.7,
+        "curb_weight_lbs": 4200
+      },
+      "mileage": {
+        "city_mpg": 34,
+        "highway_mpg": 33,
+        "combined_mpg": 33,
+        "electric_range_miles": 33
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.1,
+        "total_reviews": 143,
+        "highlights": ["Italian styling", "NFT digital certificate of ownership", "Good EV range"],
+        "complaints": ["Alfa reliability history concerns", "Small cargo area", "Dealer support limited"]
+      }
+    },
+    {
+      "id": 49,
+      "make": "Toyota",
+      "model": "Land Cruiser",
+      "variant": "1958 Limited",
+      "year": 2024,
+      "price": 59945,
+      "specs": {
+        "engine": "2.4L Turbo I4 Hybrid",
+        "horsepower": 326,
+        "torque_lb_ft": 465,
+        "transmission": "8-speed automatic",
+        "drivetrain": "4WD",
+        "fuel_type": "Hybrid",
+        "seating_capacity": 5,
+        "cargo_volume_cu_ft": 43.1,
+        "curb_weight_lbs": 5390
+      },
+      "mileage": {
+        "city_mpg": 22,
+        "highway_mpg": 25,
+        "combined_mpg": 23
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.7,
+        "total_reviews": 312,
+        "highlights": ["Legendary off-road capability", "Hybrid efficiency in an icon", "Multi-terrain select"],
+        "complaints": ["No third-row seating", "Waiting lists at dealers"]
+      }
+    },
+    {
+      "id": 50,
+      "make": "Rivian",
+      "model": "R1S",
+      "variant": "Adventure Quad Motor",
+      "year": 2024,
+      "price": 78000,
+      "specs": {
+        "engine": "Quad Electric Motors",
+        "horsepower": 835,
+        "torque_lb_ft": 908,
+        "transmission": "Single-speed fixed gear",
+        "drivetrain": "AWD",
+        "fuel_type": "Electric",
+        "seating_capacity": 7,
+        "cargo_volume_cu_ft": 104,
+        "curb_weight_lbs": 7143
+      },
+      "mileage": {
+        "city_mpge": 69,
+        "highway_mpge": 65,
+        "combined_mpge": 67,
+        "range_miles": 321
+      },
+      "safety_ratings": {
+        "nhtsa_overall": 5,
+        "iihs_rating": "Top Safety Pick+",
+        "front_crash": 5,
+        "side_crash": 5,
+        "rollover": 4
+      },
+      "user_reviews": {
+        "average_rating": 4.6,
+        "total_reviews": 389,
+        "highlights": ["Insane AWD traction", "7-seat EV SUV segment pioneer", "Camp kitchen accessory"],
+        "complaints": ["High price", "Software still maturing", "Charging network smaller than Tesla"]
+      }
+    }
+  ],
+  "metadata": {
+    "total_cars": 50,
+    "dataset_version": "1.0",
+    "generated_date": "2026-04-25",
+    "currency": "USD",
+    "mileage_unit": "MPG (or MPGe for EVs)",
+    "price_unit": "MSRP in USD",
+    "safety_rating_sources": ["NHTSA", "IIHS"],
+    "nhtsa_scale": "1-5 stars",
+    "iihs_ratings": ["Top Safety Pick+", "Top Safety Pick", "Acceptable", "Marginal", "Poor"],
+    "categories_covered": ["Sedans", "SUVs", "Trucks", "Sports Cars", "EVs", "PHEVs", "Hybrids", "Minivans"]
+  }
+}
