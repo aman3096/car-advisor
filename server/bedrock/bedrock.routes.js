@@ -53,36 +53,5 @@ router.post("/ask", async (req, res) => {
     res.end();
   }
 });
-// ── Standard invoke (Claude on Bedrock) ──────────────────────────────
-router.post("/invoke", async (req, res) => {
-  const { prompt, modelId = "us.anthropic.claude-sonnet-4-20250514-v1:0" } = req.body;
-
-  const payload = {
-    anthropic_version: "bedrock-2023-05-31",
-    max_tokens: 1024,
-    messages: [{ role: "user", content: prompt }],
-  };
-
-  try {
-    const command = new InvokeModelWithResponseStreamCommand({
-      modelId,
-      contentType: "application/json",
-      accept: "application/json",
-      body: JSON.stringify(payload),
-    });
-
-    const response = await bedrockClient.send(command);
-    const result = JSON.parse(Buffer.from(response.body).toString("utf-8"));
-
-    res.json({
-      text: result.content[0].text,
-      usage: result.usage,
-      model: result.model,
-    });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
-
 
 module.exports = router;

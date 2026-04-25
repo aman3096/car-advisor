@@ -9,13 +9,20 @@ const app = express();
 const port = process.env.SERVER_PORT || 8080
 const routeHandlers = require("./routes/index.js");
 
-// Enable CORS for local development
-app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:5174", "https://car-advisor-client.onrender.com", "http://localhost:3000", "http://localhost:8080"],
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"]
-}));
+const allowedOrigins = process.env.ALLOWED_ORIGINS
+  ? process.env.ALLOWED_ORIGINS.split(",").map((o) => o.trim())
+  : [];
 
+  app.use(cors({
+    origin: (origin, callback) => {
+        // allow server-to-server requests (no origin header)
+        if (!origin) return callback(null, true);
+        if (allowedOrigins.includes(origin)) return callback(null, true);
+        callback(new Error(`CORS: origin ${origin} not allowed`));
+    },
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+}));
 app.use(express.json());
 // Global: 100 requests per 15 minutes per IP across all routes
 const globalLimiter = rateLimit({
