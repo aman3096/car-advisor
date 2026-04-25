@@ -15,6 +15,10 @@ app.use(cors({
 
 app.use(express.json());
 
+app.get("/", (req,res)=>{
+    res.send("Welcome to the service");
+})
+
 app.get('/api/v1/health-check', async( req, res) =>{
     res.send("Car Service in progress");
 })
