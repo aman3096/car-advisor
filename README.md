@@ -1,11 +1,14 @@
 # car-advisor
-Advises cars to consumers using Amazon Bedrock's Cluade model
+Advises cars to consumers using Amazon Bedrock's Claude model
+# Screenshots
+<img width="736" height="405" alt="image" src="https://github.com/user-attachments/assets/60b6d17f-f8f4-4f36-ba17-9376f002270c" />
+<img width="1466" height="820" alt="image" src="https://github.com/user-attachments/assets/0fddd68c-921d-44e6-8bd8-404e822b07ae" />
 
 ## Approach 
  Mock database and use the JSON (skipping the real DB work)
- there will a simple express server which would contain api for calling the Claude's model
- Intitially there will be a client which would contain the set of questions asking the users about their budget, year of make and preferred brand / model
- Use the questions to give it to the ANthropic's Claude Sonnect along with the JSON generated in order to get our top 3 recommendattions from the dataset provided
+ There will be a simple express server which would contain api for calling Claude's model
+ Intitially there will be a client which would contain the set of questions asking the users about their budget, year of make, and preferred brand/model
+ Use the questions to give it to the Anthropics' Claude Sonnect, along with the JSON generated, to get our top 3 recommendations from the dataset provided
  Next would be sending the whole JSON to the customer and the customer can choose along and may be dig in further with the chat involved
  ### What did you build and why? What did you deliberately cut?
  - What did I built?
@@ -24,15 +27,15 @@ Advises cars to consumers using Amazon Bedrock's Cluade model
  - React (Client)
 
  ### What did you delegate to AI tools vs. do manually? Where did the tools help most?
-    - Creation of repetitive data and codes which can built faster by cluade rather than human writing the code
+    - Creation of repetitive data and codes, which can be built faster by Claude rather than a human writing the code
     - CSS and UI changes
-    - Manual work was on the orchestration and making sure that the things work out
+    - Manual work was on the orchestration and making sure that things work out
     - Taking care of the coding standards
-    - Tools which helped here was Claude Code, Copilot for scaffolding and error handling sceenarios and delivering the faster codes, 
+    - Tools that helped here were Claude Code, Copilot for scaffolding and error handling scenarios, and delivering faster code. 
 
 
  ### If you had another 4 hours, what would you add?
  - Docker Addition could be considered for the deployment part, used render beause of the time constaraints and it being a free one
  - Auth Layer and Authorization Layer
- - RAG pipeline (It would refer the Internal data and will not expose the data to the training model (Anthropic))
- 
+ - RAG pipeline (It would refer to the Internal data and will not expose the data to the training model (Anthropic))
+ - Further improvements in the codebase. 
