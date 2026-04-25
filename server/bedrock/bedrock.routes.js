@@ -5,8 +5,9 @@ const {
 } = require("@aws-sdk/client-bedrock-runtime");
 
 const bedrockClient = require("./bedrock.client");
-const carsData = require("../cars_dataset.json"); // your 50-car JSON
+const carsData = require("../cars_dataset.json"); // 50 car generated JSON is present here
 
+// For the streaming of the responses of the customer
 router.post("/ask", async (req, res) => {
   res.setHeader("Content-Type", "text/event-stream");
   res.setHeader("Cache-Control", "no-cache");
@@ -53,36 +54,5 @@ router.post("/ask", async (req, res) => {
     res.end();
   }
 });
-// ── Standard invoke (Claude on Bedrock) ──────────────────────────────
-router.post("/invoke", async (req, res) => {
-  const { prompt, modelId = "us.anthropic.claude-sonnet-4-20250514-v1:0" } = req.body;
-
-  const payload = {
-    anthropic_version: "bedrock-2023-05-31",
-    max_tokens: 1024,
-    messages: [{ role: "user", content: prompt }],
-  };
-
-  try {
-    const command = new InvokeModelWithResponseStreamCommand({
-      modelId,
-      contentType: "application/json",
-      accept: "application/json",
-      body: JSON.stringify(payload),
-    });
-
-    const response = await bedrockClient.send(command);
-    const result = JSON.parse(Buffer.from(response.body).toString("utf-8"));
-
-    res.json({
-      text: result.content[0].text,
-      usage: result.usage,
-      model: result.model,
-    });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
-
 
 module.exports = router;

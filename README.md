@@ -32,6 +32,7 @@ Advises cars to consumers using Amazon Bedrock's Cluade model
 
 
  ### If you had another 4 hours, what would you add?
+ - Docker Addition could be considered for the deployment part, used render beause of the time constaraints and it being a free one
  - Auth Layer and Authorization Layer
  - RAG pipeline (It would refer the Internal data and will not expose the data to the training model (Anthropic))
  
