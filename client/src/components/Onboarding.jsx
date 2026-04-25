@@ -20,7 +20,14 @@ export const Onboarding = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt }),
       });
-
+      if (response.status === 429) {
+              const err = await response.json();
+              throw new Error(err.error || "Rate limit reached. Please slow down.");
+      }
+      if (!response.ok) {
+        const err = await response.json();
+        throw new Error(err.error || "Request failed");
+      }
       const reader = response.body.getReader();
       const decoder = new TextDecoder();
 

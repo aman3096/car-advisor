@@ -12,9 +12,9 @@ Advises cars to consumers using Amazon Bedrock's Cluade model
    - Bedrock's streaming API for streaming the responses of the customer's queries
    - API Layer using Express
    - React application showcasing the responses in a streaming way
-   - Rate Limiting to be added in later part
+   - Rate Limiting added
    What was cut deliberately?
-   - Building the RAG pipleline was one thing to be deducted due to mock data, in prod scenarios, this should be taken into consideration
+   - Building the RAG pipeline was one thing to be deducted due to mock data, in prod scenarios, this should be taken into consideration
    - Building real databases and Vector DBs and embedding since the Claude's Sonnet model is already doing the work
 
  ### What’s your tech stack and why did you pick it?
@@ -32,6 +32,6 @@ Advises cars to consumers using Amazon Bedrock's Cluade model
 
 
  ### If you had another 4 hours, what would you add?
- - Auth Layer
- - RAG pipeline (It would refer the Internal data and will not expose the data to the training model (ANthropic))
+ - Auth Layer and Authorization Layer
+ - RAG pipeline (It would refer the Internal data and will not expose the data to the training model (Anthropic))
  
